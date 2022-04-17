@@ -1,0 +1,5 @@
+[ubu18]
+172.16.133.197 ansible_user=vib
+
+[docker]
+172.17.0.2 ansible_ssh_pass=vibhor@123 ansible_ssh_user=vibhor
