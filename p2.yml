@@ -1,6 +1,6 @@
 ---
 - name: Deploy a jar file
-  hosts: all
+  hosts: ubu18
   tasks:
     - name: Copy jar file to home directory
       copy:
