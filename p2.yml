@@ -1,6 +1,6 @@
 ---
 - name: Deploy a jar file
-  hosts: ubu18
+  hosts: all
   tasks:
     - name: Deploy Army
       docker_container:
