@@ -1,2 +1,2 @@
 # Calculator_Mini_Project
-Building a Java based Scientific Calculator application using Maven build tool, integrating and develpoing using Jenkins pipeline and finally deploying it over a host machine using Ansible  
+Designing a Java based Scientific Calculator using Maven build tool, integrating and develpoing using Jenkins pipeline and deploying it over a host machine using Ansible  
