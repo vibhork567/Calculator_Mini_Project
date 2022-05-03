@@ -2,7 +2,8 @@
 - name: Deploy a jar file
   hosts: all
   tasks:
-    - name: Copy jar file to home directory
-      copy:
-        src: /home/vibhor/calculatorDevOps-1.0-SNAPSHOT-jar-with-dependencies.jar
-        dest: ~/
+    - name: Deploy Army
+      docker_container:
+        name: calculator_container
+        image: vib123/calculator_mini_project:ver1
+        state: present
